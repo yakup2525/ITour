@@ -5,17 +5,40 @@
 //  Created by Wolf Trail on 25.08.2024.
 //
 
+import SwiftData
 import SwiftUI
 
 struct EditDestinationView: View {
- @Bindable   var destination: Destination
+    @Bindable var destination: Destination
     var body: some View {
-        
-        Text("")
-        
+        Form {
+            TextField("Name", text: $destination.name)
+            TextField("Details", text: $destination.details, axis: .vertical)
+            DatePicker("Date", selection: $destination.date)
+
+            Section("Priority") {
+                Picker("Priority", selection: $destination.priority) {
+                    Text("Meh").tag(1)
+                    Text("Maybe").tag(2)
+                    Text("Must").tag(3)
+                }
+                .pickerStyle(.segmented)
+            }
+        }
+        .navigationTitle("Edit Destination")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    EditDestinationView()
+    do {
+        let config = ModelConfiguration(isStoredInMemoryOnly: true)
+        let container = try ModelContainer(for: Destination.self, configurations:
+            config)
+        let example = Destination(name: "Example Detail", details: "Example details go here and will automaticly expand vertically as they are edited.")
+        return EditDestinationView(destination: example)
+            .modelContainer(container)
+    } catch {
+        fatalError("Failed to create model container")
+    }
 }
