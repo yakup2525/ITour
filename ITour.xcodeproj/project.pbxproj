@@ -55,12 +55,12 @@
 		21B0B0AD2C7B6B0D00B98AC0 /* ITour */ = {
 			isa = PBXGroup;
 			children = (
+				218C61CF2C7B8C310024FBB1 /* EditDestinationView.swift */,
 				21B0B0BC2C7B6C1200B98AC0 /* Destination.swift */,
 				21B0B0AE2C7B6B0D00B98AC0 /* ITourApp.swift */,
 				21B0B0B02C7B6B0D00B98AC0 /* ContentView.swift */,
 				21B0B0B22C7B6B0E00B98AC0 /* Assets.xcassets */,
 				21B0B0B42C7B6B0E00B98AC0 /* Preview Content */,
-				218C61CF2C7B8C310024FBB1 /* EditDestinationView.swift */,
 			);
 			path = ITour;
 			sourceTree = "<group>";
