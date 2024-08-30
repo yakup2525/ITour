@@ -14,7 +14,6 @@
 		21B0B0B32C7B6B0E00B98AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B0B22C7B6B0E00B98AC0 /* Assets.xcassets */; };
 		21B0B0B62C7B6B0E00B98AC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B0B52C7B6B0E00B98AC0 /* Preview Assets.xcassets */; };
 		21B0B0BD2C7B6C1200B98AC0 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B0BC2C7B6C1200B98AC0 /* Destination.swift */; };
-		21B97BF82C7F858600BCA749 /* NewDestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B97BF72C7F858600BCA749 /* NewDestinationListingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		21B0B0B22C7B6B0E00B98AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B0B0B52C7B6B0E00B98AC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21B0B0BC2C7B6C1200B98AC0 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
-		21B97BF72C7F858600BCA749 /* NewDestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDestinationListingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				21B0B0AE2C7B6B0D00B98AC0 /* ITourApp.swift */,
 				21B0B0B02C7B6B0D00B98AC0 /* ContentView.swift */,
 				218EEE812C821AA1001799C9 /* DestinationListingVİew.swift */,
-				21B97BF72C7F858600BCA749 /* NewDestinationListingView.swift */,
 				21B0B0B22C7B6B0E00B98AC0 /* Assets.xcassets */,
 				21B0B0B42C7B6B0E00B98AC0 /* Preview Content */,
 			);
@@ -152,7 +149,6 @@
 				21B0B0B12C7B6B0D00B98AC0 /* ContentView.swift in Sources */,
 				21B0B0AF2C7B6B0D00B98AC0 /* ITourApp.swift in Sources */,
 				218EEE822C821AA1001799C9 /* DestinationListingVİew.swift in Sources */,
-				21B97BF82C7F858600BCA749 /* NewDestinationListingView.swift in Sources */,
 				21B0B0BD2C7B6C1200B98AC0 /* Destination.swift in Sources */,
 				218C61D02C7B8C310024FBB1 /* EditDestinationView.swift in Sources */,
 			);
